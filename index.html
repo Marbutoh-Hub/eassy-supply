@@ -31,6 +31,19 @@
           $("#next").css({
             transform: "translate(0px, " + wScroll / 6 + "%)",
           });
+          if (wScroll > 20) {
+            // $("#Best-Seller").css({
+            //   // transform: "translate(0px, " + wScroll / -10 + "%)"
+            // });
+            $("#Best-Seller").css("display", "none");
+          }
+
+          if (wScroll < 20) {
+            // $("#Best-Seller").css({
+            //   // transform: "translate(0px, " + wScroll / -10 + "%)"
+            // });
+            $("#Best-Seller").css("display", "block");
+          }
 
           if (wScroll > $(".container").offset().top - 90) {
             console.log("ok");

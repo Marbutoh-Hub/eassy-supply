@@ -13,7 +13,7 @@
           <a class="nav-link active" aria-current="page" href="#">HOME</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">WHAT'S NEW</a>
+          <a class="nav-link" href="#" id="whats-new">WHAT'S NEW</a>
         </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"> PRODUCT </a>
@@ -33,3 +33,8 @@
     </div>
   </div>
 </nav>
+<script>
+  $("#whats-new").click(function () {
+    $("#content").load("view/whats-new/index.html");
+  });
+</script>
