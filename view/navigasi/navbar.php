@@ -20,7 +20,9 @@
           <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
             <li><a class="dropdown-item" href="#">Hoodie</a></li>
             <li><a class="dropdown-item" href="#">T-shirt</a></li>
-            <li><hr class="dropdown-divider" /></li>
+            <li>
+              <hr class="dropdown-divider" />
+            </li>
             <li><a class="dropdown-item" href="#">Short pants</a></li>
             <li><a class="dropdown-item" href="#">Long pants</a></li>
           </ul>
@@ -34,7 +36,9 @@
   </div>
 </nav>
 <script>
-  $("#whats-new").click(function () {
-    $("#content").load("view/whats-new/index.html");
+  $("#whats-new").click(function() {
+    $("#header").load("view/navigasi/navbar.php");
+    $("#content").load("view/whats-new/index.php");
+    $("#footer").load("view/footer/footer.php");
   });
 </script>

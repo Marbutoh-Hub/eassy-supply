@@ -24,7 +24,9 @@
       </a>
       <div class="card-body" id="card-b">
         <h5 class="card-title mb-3">Hoodie Metal</h5>
-        <s style="color: red"><p class="card-text" style="color: red; font-size: 1rem">Rp. 120.000</p></s>
+        <s style="color: red">
+          <p class="card-text" style="color: red; font-size: 1rem">Rp. 120.000</p>
+        </s>
         <h6 class="text-notdisc">Rp. 100.000</h6>
         <!-- <span class="mt-2">Size</span>
         <div class="container mt-4">
@@ -72,7 +74,9 @@
       </a>
       <div class="card-body" id="card-b">
         <h5 class="card-title mb-3">Hoodie Metal</h5>
-        <s style="color: red"><p class="card-text" style="color: red; font-size: 1rem">Rp. 120.000</p></s>
+        <s style="color: red">
+          <p class="card-text" style="color: red; font-size: 1rem">Rp. 120.000</p>
+        </s>
         <h6 class="text-notdisc">Rp. 100.000</h6>
         <!-- <span class="mt-2">Size</span>
         <div class="container mt-4">
@@ -120,7 +124,9 @@
       </a>
       <div class="card-body" id="card-b">
         <h5 class="card-title mb-3">Hoodie Metal</h5>
-        <s style="color: red"><p class="card-text" style="color: red; font-size: 1rem">Rp. 120.000</p></s>
+        <s style="color: red">
+          <p class="card-text" style="color: red; font-size: 1rem">Rp. 120.000</p>
+        </s>
         <h6 class="text-notdisc">Rp. 100.000</h6>
         <!-- <span class="mt-2">Size</span>
         <div class="container mt-4">
@@ -167,7 +173,9 @@
       </a>
       <div class="card-body" id="card-b">
         <h5 class="card-title mb-3">Hoodie Metal</h5>
-        <s style="color: red"><p class="card-text" style="color: red; font-size: 1rem">Rp. 120.000</p></s>
+        <s style="color: red">
+          <p class="card-text" style="color: red; font-size: 1rem">Rp. 120.000</p>
+        </s>
         <h6 class="text-notdisc">Rp. 100.000</h6>
         <!-- <span class="mt-2">Size</span>
         <div class="container mt-4">
@@ -214,7 +222,9 @@
       </a>
       <div class="card-body" id="card-b">
         <h5 class="card-title mb-3">Hoodie Metal</h5>
-        <s style="color: red"><p class="card-text" style="color: red; font-size: 1rem">Rp. 120.000</p></s>
+        <s style="color: red">
+          <p class="card-text" style="color: red; font-size: 1rem">Rp. 120.000</p>
+        </s>
         <h6 class="text-notdisc">Rp. 100.000</h6>
         <!-- <span class="mt-2">Size</span>
         <div class="container mt-4">
