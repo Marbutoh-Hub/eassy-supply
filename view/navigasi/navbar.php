@@ -10,7 +10,7 @@
     <div class="collapse navbar-collapse mt-3" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">HOME</a>
+          <a class="nav-link active" aria-current="page" href="index.php">HOME</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#" id="whats-new">WHAT'S NEW</a>

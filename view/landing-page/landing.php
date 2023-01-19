@@ -19,7 +19,7 @@
   <h5 id="Best-Seller">Best Seller</h5>
   <div id="card-product">
     <div class="card border cb">
-      <a href="">
+      <a href="view/detail-product/index.php">
         <img src="assets/images/product-best-seller/contoh-hoodie-bsell.jpeg" class="card-img-top" alt="..." />
       </a>
       <div class="card-body" id="card-b">
@@ -119,7 +119,7 @@
     <!-- 3 -->
 
     <div class="card border cb">
-      <a href="">
+      <a href="view/detail-product/index.php">
         <img src="assets/images/product-best-seller/contoh-hoodie-bsell.jpeg" class="card-img-top" alt="..." />
       </a>
       <div class="card-body" id="card-b">

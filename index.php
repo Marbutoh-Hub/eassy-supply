@@ -27,9 +27,6 @@
       $(window).scroll(function() {
         var wScroll = $(this).scrollTop();
 
-        $("#previous").css({
-          transform: "translate(0px, " + wScroll / 6 + "%)",
-        });
         $("#next").css({
           transform: "translate(0px, " + wScroll / 6 + "%)",
         });
@@ -52,7 +49,7 @@
           $(".container .purchase .po").each(function(i) {
             setTimeout(function() {
               $(".container .purchase .po").eq(i).addClass("muncul");
-            }, 300 * (i + 1));
+            }, 900 * (i + 1));
           });
         }
       });

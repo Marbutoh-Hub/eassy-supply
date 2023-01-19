@@ -327,11 +327,92 @@ body {
 }
 
 #co:hover .drawer-title {
-  opacity: 1;
+  opacity: 2;
 }
 
 /* end whats new */
+/* detail product */
+#detail-container {
+  /* border: 2px solid black; */
+  padding: 20px;
+  margin: 10px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
 
+#Header-detail {
+  text-align: center;
+  border-bottom: 3px solid rgb(20, 32, 85);
+  padding-bottom: 5px;
+  font-size: 3rem;
+  width: 100%;
+  margin: 0px auto;
+}
+
+#content-detail {
+  /* border: 2px solid black; */
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 15px;
+  flex-wrap: wrap;
+  margin: 20px auto;
+}
+
+#Header-detail > h2 {
+  font-size: 3rem;
+}
+
+#card-deskripsi {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+#card-deskripsi > h3 {
+  font-size: 1.5rem;
+}
+
+#size {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+#size > span {
+  padding: 10px;
+  text-align: center;
+  margin-left: 5px;
+  width: 45px;
+  height: 45px;
+}
+
+.price-label {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+#card-gambar {
+  width: 30%;
+}
+
+#card-deskripsi {
+  width: 65%;
+}
+
+#back-detail {
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+}
+
+#back-detail > a > img {
+  width: 50px;
+  height: 50px;
+}
 @media only screen and (max-width: 400px) {
   #navbar {
     box-shadow: none;
@@ -359,14 +440,30 @@ body {
     padding: 5px;
     margin-top: 10px;
     width: 100%;
-    /* border: 4px solid black; */
     display: flex;
     flex-direction: row;
-    /* justify-content: space-evenly; */
     box-sizing: border-box;
-    /* flex-wrap: wrap; */
-    /* align-items: center; */
   }
+  #content-detail {
+    /* border: 2px solid black; */
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    padding: 15px;
+    /* flex-wrap: wrap; */
+  }
+
+  #card-gambar {
+    width: 20rem;
+  }
+
+  #card-deskripsi {
+    margin-top: 10px;
+    width: 40rem;
+  }
+
   .card-title {
     font-size: 0.8rem;
   }
@@ -444,6 +541,30 @@ body {
     -ms-transform: translate(-50%, -50%);
     text-align: center;
   }
+
+  #back-detail > a > img {
+    width: 35px;
+    height: 35px;
+  }
+
+  #Header-detail > h2 {
+    font-size: 1.5rem;
+  }
+
+  #card-deskripsi > h3 {
+    font-size: 0.75rem;
+  }
+
+  #size > span {
+    /* padding: 10px; */
+    text-align: center;
+    margin-left: 5px;
+    /* width: 45px;
+    height: 45px; */
+    width: 40px;
+    height: 40px;
+    font-size: 0.8rem;
+  }
 }
 
 @media only screen and (410px <= width <= 768px) {
@@ -456,6 +577,14 @@ body {
   #title-logo {
     margin-left: 5px;
     font-size: 1.5rem;
+  }
+  #card-gambar {
+    width: 30rem;
+  }
+
+  #card-deskripsi {
+    margin-top: 10px;
+    width: 65rem;
   }
 
   .cb {
@@ -480,6 +609,17 @@ body {
     display: flex;
     flex-direction: column;
   }
+  .drawer-title {
+    /* border: 2px solid black; */
+
+    top: 40px;
+    left: 50%;
+    width: 70%;
+    padding: 8px;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
 
   .mp-text {
     font-size: 0.7rem;
@@ -501,6 +641,15 @@ body {
     background-color: rgb(45, 45, 44);
     margin-top: 50%;
   }
+  #content-detail {
+    border: 2px solid black;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 15px;
+    flex-wrap: wrap;
+  }
 }
 
 @media only screen and (770px <= width <= 992px) {
@@ -517,6 +666,15 @@ body {
 
   .cb {
     margin-top: 20px;
+  }
+
+  #card-gambar {
+    width: 20rem;
+  }
+
+  #card-deskripsi {
+    margin-top: 10px;
+    width: 56rem;
   }
 
   .header-footer > span > h3 {
@@ -548,9 +706,18 @@ body {
     text-align: center;
     font-size: 0.8rem;
   }
+  #content-detail {
+    border: 2px solid black;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 15px;
+    flex-wrap: wrap;
+  }
 }
 
-@media only screen and (999px <= width <= 1080px) {
+@media only screen and (900px <= width <= 1080px) {
   #banner {
     height: 680px;
   }
@@ -576,9 +743,26 @@ body {
     margin-top: 4px;
     border-left: none;
   }
+
+  #content-detail {
+    border: 2px solid black;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 15px;
+    /* flex-wrap: wrap; */
+  }
   #ho-ea-detail {
     width: 90%;
     text-align: center;
     font-size: 0.8rem;
+  }
+  #card-gambar {
+    width: 30%;
+  }
+
+  #card-deskripsi {
+    width: 65%;
   }
 }
