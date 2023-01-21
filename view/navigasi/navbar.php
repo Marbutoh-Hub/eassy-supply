@@ -10,7 +10,7 @@
     <div class="collapse navbar-collapse mt-3" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="index.php">HOME</a>
+          <a class="nav-link" aria-current="page" href="index.php">HOME</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#" id="whats-new">WHAT'S NEW</a>
@@ -18,7 +18,7 @@
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"> PRODUCT </a>
           <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <li><a class="dropdown-item" href="#">Hoodie</a></li>
+            <li><a class="dropdown-item" id="allhoodie" href="#">Hoodie</a></li>
             <li><a class="dropdown-item" href="#">T-shirt</a></li>
             <li>
               <hr class="dropdown-divider" />
@@ -41,4 +41,9 @@
     $("#content").load("view/whats-new/index.php");
     $("#footer").load("view/footer/footer.php");
   });
+  $("#allhoodie").click(function() {
+    $("#header").load("view/navigasi/navbar.php");
+    $("#content").load("view/disp-barang/index.php");
+    $("#footer").load("view/footer/footer.php");
+  })
 </script>

@@ -22,7 +22,7 @@
         </div>
 
         <div class="row" id="content-detail">
-            <div class="card border" id="card-gambar">
+            <div class="card border border-white" id="card-gambar">
                 <img src="/eassy-supply/assets/images/product-best-seller/contoh-hoodie-bsell.jpeg" class="img-fluid" />
             </div>
             <div class="card border border-white " id="card-deskripsi">
@@ -52,6 +52,35 @@
                         <span class=" border">L</span>
                         <span class=" border">XL</span>
                     </div>
+                </div>
+                <span class="mt-2">Stock</span>
+                <div class="container mt-2">
+                    <div id="size" style="width: 100%;">
+                        <span class=" border" style="border-radius:50px">23</span>
+                    </div>
+                </div>
+                <span style="margin-top: 20px;">Order By</span>
+                <div class="card-body" id="drawer-shopp">
+                    <span class="drawer-shopee">
+                        <a href="#" class="card-link" style="text-decoration: none">
+                            <img src="https://img.icons8.com/fluency/48/null/shopee.png" class="icon-shopee" />
+                        </a>
+                    </span>
+                    <span class="drawer-lazada">
+                        <a href="#" class="card-link" style="text-decoration: none">
+                            <img src="/eassy-supply/assets/icon/icon-lazada3.svg" class="icon-lazada" />
+                        </a>
+                    </span>
+                    <span class="drawer-tokopedia">
+                        <a href="#" class="card-link" style="text-decoration: none">
+                            <img src="/eassy-supply/assets/icon/icon-tokopedia2.svg" class="icon-tokopedia" />
+                        </a>
+                    </span>
+                    <span class="drawer-whatsapp">
+                        <a href="#" class="card-link" style="text-decoration: none">
+                            <img src="https://img.icons8.com/color/48/null/whatsapp--v1.png" class="icon-whatsapp" />
+                        </a>
+                    </span>
                 </div>
             </div>
         </div>
