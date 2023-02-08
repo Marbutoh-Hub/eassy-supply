@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500&display=swap");
+
+body {
+  margin: 0px 0px 0px 0px;
+}
+
+#container-login {
+  /* border: 2px solid black; */
+  width: 100%;
+}
+
+.drawer-form-login {
+  width: 23%;
+  /* border: 2px solid black; */
+  margin: 100px auto;
+}
+#formulir {
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+  border: 2px solid rgba(0, 0, 0, 0.081);
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.092);
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.text-login {
+  font-size: 1.4rem;
+  font-family: "Quicksand", sans-serif;
+}
+
+#formulir > label {
+  font-size: 0.9rem;
+}
+
+#formulir > button {
+  font-size: 0.9rem;
+  font-weight: bold;
+  color: whitesmoke;
+  background-color: rgba(0, 0, 0, 0.848);
+  font-family: "Quicksand", sans-serif;
+}
+
+/* CSS Dashboard */
+@media only screen and (320px <= width <= 767px) {
+  #container-login {
+    /* border: 2px solid black; */
+    width: 100%;
+  }
+  .drawer-form-login {
+    width: 100%;
+    /* border: 2px solid black; */
+    margin: 20px auto;
+    padding: 20px;
+  }
+
+  #formulir {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 40px;
+    /* border: 2px solid rgba(0, 0, 0, 0.081); */
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.092);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  }
+}

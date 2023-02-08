@@ -1,132 +1,59 @@
+<?php
+include "../../../eassy-supply/view/header/index.php";
+include "../../../eassy-supply/view/navigasi/navbar.php";
+
+?>
+
 <div id="alldisp">
     <div id="allproduct">
-        <div class="card border cb">
-            <a href="view/detail-product/index.php">
-                <img src="assets/images/product-best-seller/contoh-hoodie-bsell.jpeg" class="card-img-top" alt="..." />
-            </a>
-            <div class="card-body" id="card-b">
-                <h5 class="card-title mb-3">Hoodie Metal</h5>
-                <s style="color: red">
-                    <p class="card-text" style="color: red; font-size: 1rem">Rp. 120.000</p>
-                </s>
-                <h6 class="text-notdisc">Rp. 100.000</h6>
-            </div>
-        </div>
-
-        <!-- 2 -->
-
-        <div class="card border cb">
-            <a href="">
-                <img src="assets/images/product-best-seller/contoh-hoodie-bsell.jpeg" class="card-img-top" alt="..." />
-            </a>
-            <div class="card-body" id="card-b">
-                <h5 class="card-title mb-3">Hoodie Metal</h5>
-                <s style="color: red">
-                    <p class="card-text" style="color: red; font-size: 1rem">Rp. 120.000</p>
-                </s>
-                <h6 class="text-notdisc">Rp. 100.000</h6>
-            </div>
-        </div>
-
-        <!-- 3 -->
-
-        <div class="card border cb">
-            <a href="view/detail-product/index.php">
-                <img src="assets/images/product-best-seller/contoh-hoodie-bsell.jpeg" class="card-img-top" alt="..." />
-            </a>
-            <div class="card-body" id="card-b">
-                <h5 class="card-title mb-3">Hoodie Metal</h5>
-                <s style="color: red">
-                    <p class="card-text" style="color: red; font-size: 1rem">Rp. 120.000</p>
-                </s>
-                <h6 class="text-notdisc">Rp. 100.000</h6>
-            </div>
-        </div>
-        <!-- 4 -->
-
-        <div class="card border cb">
-            <a href="">
-                <img src="assets/images/product-best-seller/contoh-hoodie-bsell.jpeg" class="card-img-top" alt="..." />
-            </a>
-            <div class="card-body" id="card-b">
-                <h5 class="card-title mb-3">Hoodie Metal</h5>
-                <s style="color: red">
-                    <p class="card-text" style="color: red; font-size: 1rem">Rp. 120.000</p>
-                </s>
-                <h6 class="text-notdisc">Rp. 100.000</h6>
-            </div>
-        </div>
-        <!-- 5 -->
-
-        <div class="card border cb">
-            <a href="">
-                <img src="assets/images/product-best-seller/contoh-hoodie-bsell.jpeg" class="card-img-top" alt="..." />
-            </a>
-            <div class="card-body" id="card-b">
-                <h5 class="card-title mb-3">Hoodie Metal</h5>
-                <s style="color: red">
-                    <p class="card-text" style="color: red; font-size: 1rem">Rp. 120.000</p>
-                </s>
-                <h6 class="text-notdisc">Rp. 100.000</h6>
-            </div>
-        </div>
-
-
-        <!-- disp 2 -->
-
-        <!-- 6 -->
-
-        <div class="card border cb">
-            <a href="">
-                <img src="assets/images/product-best-seller/contoh-hoodie-bsell.jpeg" class="card-img-top" alt="..." />
-            </a>
-            <div class="card-body" id="card-b">
-                <h5 class="card-title mb-3">Hoodie Metal</h5>
-                <s style="color: red">
-                    <p class="card-text" style="color: red; font-size: 1rem">Rp. 120.000</p>
-                </s>
-                <h6 class="text-notdisc">Rp. 100.000</h6>
-            </div>
-        </div>
-
-        <!-- 7 -->
-
-        <div class="card border cb">
-            <a href="">
-                <img src="assets/images/product-best-seller/contoh-hoodie-bsell.jpeg" class="card-img-top" alt="..." />
-            </a>
-            <div class="card-body" id="card-b">
-                <h5 class="card-title mb-3">Hoodie Metal</h5>
-                <s style="color: red">
-                    <p class="card-text" style="color: red; font-size: 1rem">Rp. 120.000</p>
-                </s>
-                <h6 class="text-notdisc">Rp. 100.000</h6>
-            </div>
-        </div>
-
-        <!-- 8 -->
-
-        <div class="card border cb">
-            <a href="">
-                <img src="assets/images/product-best-seller/contoh-hoodie-bsell.jpeg" class="card-img-top" alt="..." />
-            </a>
-            <div class="card-body" id="card-b">
-                <h5 class="card-title mb-3">Hoodie Metal</h5>
-                <s style="color: red">
-                    <p class="card-text" style="color: red; font-size: 1rem">Rp. 120.000</p>
-                </s>
-                <h6 class="text-notdisc">Rp. 100.000</h6>
-            </div>
-        </div>
-
         <!-- end -->
-        <span class=" mt-4" style="width: 100%; text-align:center; padding:20px">
+    </div>
+    <span class=" mt-4" style="width: 100%; text-align:center; padding:20px">
+        <form id="form-show">
+            <input type="hidden" name="show" id="show" value="true">
+            <input type="hidden" name="limits" id="limits">
+            <input type="hidden" name="category" id="category" value="<?php echo $_GET['category'] ?>">
             <h6>
-                <button class="btn btn-outline-light" style="color:black;">
+                <button id="showdata" type='submit' class="btn btn-outline-light" style="color:black;">
                     SEE MORE
                 </button>
             </h6>
-        </span>
-    </div>
+        </form>
+    </span>
 </div>
 </div>
+<script>
+    $(document).ready(function() {
+        $.ajax({
+            url: "proses.php",
+            method: "post",
+            data: {
+                category: $('#category').val(),
+                notshow: "not show"
+            },
+            success: function(data) {
+                $('#allproduct').html(data);
+
+            }
+        })
+        $(document).on('submit', '#form-show', function(e) {
+            e.preventDefault();
+            $.ajax({
+                url: "proses_show.php",
+                method: "post",
+                data: {
+                    show: $('#show').val(),
+                    category: $('#category').val(),
+                    limits: 0
+                },
+                success: function(data) {
+                    $('#allproduct').html(data);
+                    $('#limits').html(data);
+                }
+            })
+        })
+    })
+</script>
+<?php
+include "../../view/footer/footer.php";
+?>
